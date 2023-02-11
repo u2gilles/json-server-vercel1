@@ -1,12 +1,17 @@
+ 
 {
-  "name": "json-server-vercel",
+  "name": "json-server-demo",
   "version": "1.0.0",
-  "description": "Deploy JSON Server to Vercel",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+  "description": "",
+  "main": "index.js",
+  "scripts": { 
+    "start": "json-server --watch db.json"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.1"
   }
 }
+
